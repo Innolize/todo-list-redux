@@ -5,7 +5,7 @@ import { ListaTareas } from './components/listaTareas';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <NuevaTarea></NuevaTarea>
       <ListaTareas></ListaTareas>
     </div>

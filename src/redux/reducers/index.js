@@ -7,7 +7,6 @@ const tareaReducer = (state = initialState, { type, payload }) => {
         case "COMPLETAR_TAREA":
             return { ...state, tareas: state.tareas.map(tarea => tarea.id === payload ? Object.assign(tarea, { terminada: true }) : tarea) }
         case "ELIMINAR_TAREA":
-            debugger
             return { ...state, tareas: state.tareas.filter(tarea => tarea.id !== payload) }
 
         default:
