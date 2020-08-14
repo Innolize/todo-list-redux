@@ -1,0 +1,16 @@
+.lista-tareas{
+    width: 600px;
+    text-align:center;
+}
+
+.tarea{
+    margin: 10px 0px 5px 0px;
+    border: 1px solid white
+}
+
+.tarea-texto{
+    font-size: 20px;
+}
+
+.tarea-terminada{
+    text-decoration: line-through;}
